@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+  /* background-color: #ffffff; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.jumbotron {
+  color: white;
+  background-color: #171a29;
+}
+
+/* Deals  */
+#deals-conatiner {
+  /* background-color: #03071e; */
+  width: 100%;
+  height: 306px;
+}
+
+#deals-card-deck {
+  margin-top: 3.5%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#deals-card {
+  background-color: transparent;
+  width: 260px;
+  height: 260px;
+  border: none;
+}
+
+/* Relevance */
+#relevance-container {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+}
+
+
+#rel-card-deck {
+
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rel-card-row {
+
+  margin-top: 3.5%;
+}
+
+#rel-card {
+  background-color: transparent;
+  width: 260px;
+  height: 260px;
+  border: none;
+}
+
+
+.rel-header {
+  padding-top: 4%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.rel-heading {
+  height: 46px;
+  /* background-color: rgb(110, 110, 110); */
+  border-bottom: 2px solid lightgray;
+}
+
+.rel-heading-text {
+  font-size: 1.6rem;
+  /* height: 10px; */
+
+
+}
+
+.rel-menu-container {
+  z-index: 1;
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+}
+
+.rel-menu {
+  display: flex;
+  align-items: center;
+  float: right;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.rel-item {
+  /* height: 60px; */
+  padding-left: 15px;
+  font-size: 1.1rem;
+  margin-left: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+/* Collection Card tow */
+
+#Coll-card-two-container {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#Coll-card-two-deck {
+  margin-top: 2.5%;
+  background-color: #ffffff;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Coll-card-two-row {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+#Coll-card-two-title {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+
+}
+
+.Coll-card-text-div {
+  margin-left: 8.5%;
+  width: 83%;
+  border-bottom: 1px solid rgb(170, 167, 167);
+}
+
+#Coll-head-text {
+  font-size: 1.6rem;
+  padding-top: 3%;
+}
+
+/* relevance  */
+#Rest-container {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+}
+
+#Rest-card-deck {
+
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Rest-card-row {
+  margin-top: 2%;
+}
+
+.Rest-card-text-div {
+  margin-left: 8.5%;
+  width: 83%;
+  border-bottom: 1px solid rgb(170, 167, 167);
+}
+
+#Rest-head-text {
+  font-size: 1.6rem;
+  padding-top: 7%;
+
+
+}
+
+#Rest-card-title {
+  margin-top: -5%;
+  margin-left: -4%;
+  font-size: 19px;
+}
+
+.Rest-card-text-details {
+  margin-left: -4%;
+  color: rgb(78, 77, 77);
+}
+
+.price-div {
+  margin-left: -4%;
+}
+
+span {
+  margin-left: -2%;
+  color: rgb(71, 70, 70);
+  font-size: 14px;
+}
+
+.rupee-icon {
+  width: 10%;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    padding-bottom: 65px;
+  }
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  #food-zone-text-footer {
+    height: auto;
+  }
+
+  #food-zone-text {
+    max-width: 70%;
+    font-size: 1.7rem;
+  }
+
+  #food-zone-text-2 {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+  .click-btn {
+    width: 40%;
+  }
+
+  #food-zone-logo {
+    font-size: 10rem;
+  }
+
+  #container-first {
+    height: 200px;
+  }
+
+  #card-sec-2 {
+    width: 100%;
+  }
+
+  #search-box {
+    width: 100%;
+  }
+
+  .bullet-line {
+    font-size: 1.3rem;
+  }
+
+  .search-icon {
+    height: 60%;
+    font-size: smaller;
+  }
+
+  .bullet-heading {
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  #c-s-card {
+    height: 365px;
+  }
+
+  #c-t-card {
+    margin-top: 40px;
+    height: 490px;
+  }
+}
+
+/* Products */
